@@ -63,14 +63,18 @@ p{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+
+    .c1, .c2{
+        
+    }
     .c3 {
         position: absolute;
         background-color: darkgray;
         padding: 1rem;
         padding-bottom: 0;
         margin: 1rem;
-        margin-top: 10rem;
         border: 1px solid black;
+        margin-top: 13rem;
     }
 
 }
