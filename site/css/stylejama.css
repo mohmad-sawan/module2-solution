@@ -41,11 +41,59 @@ nav {
 }
 
 
+
 .container_s {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     background: #900912;
     text-align: center;
     padding: 1% 10%;
     color: aliceblue;
+    height: 30rem;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.contaner_left_s img {
+    padding-top: 2rem;
+    width: 25rem;
+}
+
+.contaner_right_s {
+    padding-top: 10rem;
+}
+
+.contaner_right_s h1 {
+    margin-bottom: 1rem;
+}
+
+.contaner_right_s p {
+    padding: 1% 10%;
+    margin-bottom: 1rem;
 }
 
 
+form a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: absolute;
+}
+
+#gsearch {
+    width: 70%;
+    background: #7b0a12;
+    border-color: bisque;
+    border: 0;
+    border-radius: 50rem;
+    padding: 1rem 3rem;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}

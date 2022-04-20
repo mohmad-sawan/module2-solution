@@ -42,6 +42,8 @@ nav {
 
 
 .container_s {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     background: #900912;
     text-align: center;
     padding: 1% 10%;
