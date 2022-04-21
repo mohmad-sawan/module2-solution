@@ -158,6 +158,13 @@ form a {
 
 }
 
+#gsearch:focus {
+    background: #c1a460;
+    border: 2px solid none;
+    cursor: text;
+    outline: 0;
+}
+
 #gsearch:hover {
     width: 80%;
     border: 2px solid bisque;
