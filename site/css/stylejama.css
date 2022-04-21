@@ -27,6 +27,8 @@ nav {
     color: aliceblue;
     text-transform: uppercase;
     font-weight: bold;
+    transition: all 500ms ease;
+
 }
 
 .container_n a:hover {
@@ -87,6 +89,34 @@ nav {
     padding-top: 2rem;
     width: 25rem;
 }
+.contaner_left_s {
+    margin-top: 2rem;
+    position: relative;
+}
+
+#left_1 {
+    /* position: absolute; */
+    font-size: 20rem;
+    margin-top: 2rem;
+    width: 25rem;
+    /* right: 1rem;
+    padding-left: 200px; */
+}
+#left_1:hover {
+    /* border: 1px solid #aaaaaa; */
+    color: rgb(255, 255, 0);
+    transition: all 1000ms ease;
+}
+
+/* #left_2 {
+    display: none;
+    position: absolute;
+    font-size: 20rem;
+    padding-top: 2rem;
+    width: 25rem;
+    right: 1rem;
+    padding-left: 200px;
+} */
 
 .contaner_right_s {
     padding-top: 10rem;
@@ -123,6 +153,9 @@ form a {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    transition: all 500ms ease;
+
 }
 
 #gsearch:hover {
