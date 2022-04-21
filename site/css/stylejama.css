@@ -7,8 +7,11 @@
 }
 
 .container_vav{
-    
     box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+nav:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav {
@@ -16,12 +19,36 @@ nav {
     background: #7b0a12;
     color: aliceblue;
     text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    z-index: 11;
 }
 
 .container_n a {
     color: aliceblue;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.container_n a:hover {
+    background: transparent;
+    border: 1px solid bisque;
+    padding: 0.5rem 2rem;
+    color: bisque;
+    border-radius: 50px;
+}
+
+#jama {
+    border: 1px solid rgb(255, 255, 0);
+    border-radius: 24px;
+    padding: 0.5rem 2rem;
+    border-color:rgb(255, 255, 0);
+    color: rgb(255, 255, 0);
+    font-size: 120%;
+}
+
+#log_in:hover {
+    border-color:rgb(255, 255, 0);
+    color: rgb(255, 255, 0);
 }
 
 .container_right li {
@@ -80,15 +107,14 @@ form a {
     color: aliceblue;
     font-size: 2rem;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 8px;
     padding-left: 10px;
     position: absolute;
 }
 
 #gsearch {
-    width: 70%;
+    width: 50%;
     background: #7b0a12;
-    border-color: bisque;
     border: 0;
     border-radius: 50rem;
     padding: 1rem 3rem;
@@ -96,4 +122,10 @@ form a {
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
+}
+
+#gsearch:hover {
+    width: 80%;
+    border: 2px solid bisque;
 }
