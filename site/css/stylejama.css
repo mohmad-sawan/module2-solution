@@ -32,6 +32,9 @@
     --color-q-7: #f4dab1 ;
     --color-q-8: #f5e2c3 ;
     --color-q-9: #f6e9d5 ;
+
+
+    --transition: all 300ms ease;
 }
 
 .container_vav{
@@ -48,7 +51,6 @@ nav {
     color: aliceblue;
     text-align: center;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    z-index: 11;
 }
 
 .container_n a {
@@ -328,4 +330,44 @@ article p {
 
 .contaner_right_q {
     margin-top: 5rem;
+}
+
+
+/* webkit scrollbar */
+
+::-webkit-scrollbar {
+    width: 0.3rem;
+    z-index: -1;
+}
+
+::-webkit-scrollbar-track{
+    width: 3rem;
+    background: var(--bs-gray-900);
+    z-index: -1;
+}
+::-webkit-scrollbar-thumb{
+    width: 0.5px;
+    background: var(--color-q-1);
+    border-radius: 4rem;
+    z-index: -1;
+
+}
+
+::-webkit-scrollbar-button {
+    background: var(--color-q-5);
+    border-radius: 4rem;
+    z-index: -1;
+}
+
+/* scrollbar nav */
+
+.window-scroll {
+    background-color: var(--bs-gray-500);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+}
+
+.window-scroll:hover {
+    box-shadow: 0rem 6rem 15rem rgba(0, 0, 0, 0.9);
+    border: var(--color-q-4);
 }
