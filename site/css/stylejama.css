@@ -355,7 +355,7 @@ article p {
 /* scrollbar nav */
 
 .window-scroll {
-    width: 99vw;
+    width: 100vw;
     position: fixed;
     z-index: 99;
     background: var(--bs-gray-800);
