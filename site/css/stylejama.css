@@ -35,6 +35,13 @@
 
 
     --transition: all 300ms ease;
+    --transition-400: all 400ms ease;
+    --transition-500: all 500ms ease;
+    --transition-600: all 600ms ease;
+    --transition-700: all 700ms ease;
+    --transition-800: all 800ms ease;
+    --transition-900: all 900ms ease;
+    --transition-1000: all 1000ms ease;
 }
 
 nav:hover {
@@ -213,6 +220,7 @@ form a {
 }
 
 article {
+    transition: var(--transition-500);
     background: var(--bs-gray-900);
     margin: 0.4rem;
     padding: 0.7rem;
@@ -249,9 +257,11 @@ article:nth-child(9) i{
 }
 
 article:hover {
+    transition: var(--transition-500);
     border: 1px solid var(--bs-gray-500);
 }
 article:hover h3{
+    transition: var(--transition-500);
     color: var(--color-q-1);
 }
 
@@ -365,4 +375,47 @@ article p {
 
 .window-scroll:hover {
     border: var(--color-q-4);
+}
+
+
+/* team section */
+.container_t {
+    padding: 2% 10%;
+    color: aliceblue;
+    height: 30rem;
+    text-align: center;
+    background: var(--bs-gray-900);
+}
+
+.container_t h1{
+    padding-bottom: 1rem;
+    color: var(--bs-gray-400);
+}
+.container_t article{
+    background: var(--bs-gray-800);
+}
+.container_t article:hover{
+    transition: var(--transition-800);
+    background: var(--bs-gray-900);
+}
+
+.container_t article p{
+    padding: 3% 5%;
+}
+.container_t article h5{
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.container_t i#t_m {
+    font-size: 4rem;
+
+}
+.container_t h1#t_l {
+    font-size: 1rem;
+}
+
+.contaner_tl {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
