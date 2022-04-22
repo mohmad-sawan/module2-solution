@@ -37,12 +37,8 @@
     --transition: all 300ms ease;
 }
 
-.container_vav{
-    box-shadow: 10px 10px 5px #aaaaaa;
-}
-
 nav:hover {
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 nav {
@@ -50,7 +46,7 @@ nav {
     background-color: var(--bs-gray-800);
     color: aliceblue;
     text-align: center;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .container_n a {
@@ -58,7 +54,6 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     transition: all 300ms ease;
-
 }
 
 .container_n a:hover {
@@ -98,8 +93,6 @@ nav {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-
-
 
 .container_s {
     display: grid;
@@ -362,12 +355,14 @@ article p {
 /* scrollbar nav */
 
 .window-scroll {
-    background-color: var(--bs-gray-500);
+    width: 99vw;
+    position: fixed;
+    z-index: 99;
+    background: var(--bs-gray-800);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     transition: var(--transition);
 }
 
 .window-scroll:hover {
-    box-shadow: 0rem 6rem 15rem rgba(0, 0, 0, 0.9);
     border: var(--color-q-4);
 }
