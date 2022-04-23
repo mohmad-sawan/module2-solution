@@ -832,3 +832,7 @@ form#one {
     }
 
 }
+ ::selection {
+     background: var(--color-q-1);
+     color: var(--bs-gray-900);
+ }
