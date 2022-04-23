@@ -534,6 +534,7 @@ hr {
 /* contact page */
 
 .contact__container{
+    padding-left: 15%;
     padding-top: 1%;
     height: 27.5rem;
     background: var(--bs-gray-900);
@@ -543,10 +544,17 @@ hr {
     text-align: center;
     border-radius: 15px;
     height: 58%;
-    margin-left: 20%;
+    margin-left: 10%;
     position: absolute;
-    width: 30%;
+    width: 22%;
+    color: var(--color-q-2);
     background: var(--bs-gray-800);
+}
+
+.contact__aside:hover {
+    color: var(--color-q-2);
+    background: var(--bs-gray-900);
+    border: 1px solid var(--color-gold-1);
 }
 
 .contact__aside a,i,li {
@@ -575,21 +583,30 @@ hr {
     margin-left: 0rem;
     display: inline;
 }
+.contact__socials li:nth-child(1) i:hover {
+    color: var(--color-q-2);
+    background: var(--bs-gray-800);
+    border: 1px solid var(--color-gold-1);
+}
 
 .contact__socials li:nth-child(2) i:hover {
-    border-color: aqua;
-    color: aqua;
+    color: var(--color-q-2);
+    background: var(--bs-gray-800);
+    border: 1px solid var(--color-gold-1);
+}
+
+.contact__socials li:nth-child(3) i:hover {
+    color: var(--color-q-2);
+    background: var(--bs-gray-800);
+    border: 1px solid var(--color-gold-1);
 }
 
 .contact__socials li:nth-child(4) i:hover {
-    border-color: rgb(48, 48, 183);
-    color: rgb(48, 48, 183);
+    color: var(--color-q-2);
+    background: var(--bs-gray-800);
+    border: 1px solid var(--color-gold-1);
 }
 
-.contact__socials li:nth-child(1) i:hover {
-    border-color: var(--color-red-2);
-    color: #c82828;
-}
 .contact__socials li i:hover {
     border-radius: 50px;
     padding: 0.5rem;
@@ -599,13 +616,71 @@ hr {
 }
 
 form#one {
+    margin-left: 90px;
+    width: 70vw;
     border-radius: 15px;
-    padding-top: 4%;
-    padding-left: 60%;
+    padding-top: 0.5rem;
+    padding-left: 50%;
     height: 70%;
     margin: 3%;
     background: var(--bs-gray-700);
+    gap: 1rem;
 }
+
+
+#one input, #one textarea {
+    font-family: 'El Messiri', sans-serif;
+    width: 250px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    color: var(--color-q-2);
+    background: var(--bs-gray-800);
+    padding-left: 1rem;
+    border-radius: 50px;
+    border: 1px solid var(--color-gold-1);
+}
+
+#one .btn {
+    margin-top: 0.5rem;
+    margin-left: 3.3rem;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid var(--color-gold-1);
+    color: var(--color-q-2);
+    background: var(--bs-gray-800);
+}
+
+#one .btn:hover {
+    background: var(--bs-gray-900);
+}
+
+#one input:hover, #one textarea:hover {
+    background: var(--bs-gray-900);
+}
+
+#one textarea {
+    padding: 0.6rem;
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 0.5rem 0;
+}
+
+#one input:focus {
+    outline: none;
+}
+
+#one textarea:focus {
+    outline: none;
+}
+
+#one input {
+    margin: 0.5rem 0;
+}
+
+
 
 /* media screen */
 
