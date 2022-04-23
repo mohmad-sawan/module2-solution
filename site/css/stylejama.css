@@ -885,13 +885,17 @@ form#one {
             #one input,
             #one textarea {
                 padding-left: 0rem;
-                margin-left: 20%;
+            }
+            #one input,
+            #one textarea {
+                margin-left: 10%;
+                width: 80%;
             }
         
             #one .btn {
                 margin-top: 0.5rem;
-                margin-left: 0rem;
-                margin-left: 35%;
+                margin-left: 10%;
+                width: 80%;
             }
 }
 @media screen and (max-width:540px) {
@@ -901,11 +905,32 @@ form#one {
                 padding-left: 0rem;
                 margin-left: 10%;
             }
+            #one input,
+            #one textarea {
+                width: 80%;
+            }
         
             #one .btn {
                 margin-top: 0.5rem;
-                margin-left: 0rem;
-                margin-left:28%;
+                margin-left: 10%;
+                width: 80%;
+            }
+
+            form#one {
+                padding: 1rem 0.5rem;
+            }
+}
+@media screen and (max-width:400px) {
+            /* contact page */
+            #one input,
+            #one textarea {
+                width: 80%;
+            }
+        
+            #one .btn {
+                margin-top: 0.5rem;
+                margin-left: 10%;
+                width: 80%;
             }
 
             form#one {
