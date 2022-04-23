@@ -899,13 +899,13 @@ form#one {
             #one input,
             #one textarea {
                 padding-left: 0rem;
-                margin-left: 0%;
+                margin-left: 10%;
             }
         
             #one .btn {
                 margin-top: 0.5rem;
                 margin-left: 0rem;
-                margin-left: 35%;
+                margin-left:28%;
             }
 
             form#one {
@@ -914,20 +914,6 @@ form#one {
 }
 @media screen and (max-width:600px) {
 
-        /* contact page */
-    
-    
-        #one input,
-        #one textarea {
-            padding-left: 0rem;
-            margin-left: 20%;
-        }
-    
-        #one .btn {
-            margin-top: 0.5rem;
-            margin-left: 0rem;
-            margin-left: 35%;
-        }
 
     /* about page */
     .about {
