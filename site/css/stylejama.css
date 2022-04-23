@@ -598,7 +598,7 @@ hr {
 
 }
 
-form {
+form#one {
     border-radius: 15px;
     padding-top: 4%;
     padding-left: 60%;
