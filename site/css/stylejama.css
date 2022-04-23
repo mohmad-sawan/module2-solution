@@ -212,7 +212,6 @@ form a {
     text-align: center;
     padding: 1% 10%;
     color: aliceblue;
-    height: 30rem;
     justify-self: center;
     justify-content: center;
     text-align: center;
@@ -494,4 +493,82 @@ footer {
 
 hr {
     border-top: 0.5px solid var(--bs-gray-800);
+}
+
+
+/* me */
+@media screen and (max-width:909px) {
+
+    /* nav */
+    .container_n {
+        display: block;
+    }
+    .container_right ul {
+        padding: 2rem 0 0 0;
+    }
+    .container_right a {
+        font-size: 0.8rem;
+    }
+
+    /* section */
+
+    .container_s {
+        height: 24rem;
+    }
+
+    #left_1 {
+        font-size: 13rem;
+    }
+
+    .contaner_left_s {
+        padding-top: 2rem;
+    }
+    .contaner_right_s {
+        padding-top: 7rem;
+    }
+
+    .contaner_right_s h1 {
+        font-size: 1rem;
+    }
+
+    .contaner_right_s p {
+        font-size: 0.6rem;
+    }
+
+    form a {
+        font-size: 1rem;
+    }
+
+    #gsearch {
+        padding: 0.4rem 3rem;
+        font-size: 0.7rem;    
+    }
+
+
+    /* ABOUT SECTION */
+
+    .container_a {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 70%;
+    }
+
+    #left_q {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .contaner_right_q {
+        margin-top: 1rem;
+    }
+
+
+    /* footer  */
+
+    .container_ff {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+    }
+
 }
