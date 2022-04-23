@@ -495,6 +495,118 @@ hr {
 }
 
 
+/* about page */
+
+.about {
+    height: 27.5rem;
+    background: var(--bs-gray-900);
+    color: var(--bs-gray-400);
+    text-align: center;
+    padding: 5% 30%;
+}
+.about i{
+    font-size: 1.5rem;
+}
+
+.about h1{
+    display: inline;
+}
+
+.container_about {
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 3%;
+    background: var(--bs-gray-800);
+}
+
+.container_about i {
+    font-size: 4rem;
+}
+
+.container_about:hover {
+    background: transparent;
+    border: 1px solid var(--color-gold-3);
+    transition: var(--transition-500);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5) ;
+}
+
+
+/* contact page */
+
+.contact__container{
+    padding-top: 1%;
+    height: 27.5rem;
+    background: var(--bs-gray-900);
+}
+.contact__aside {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 15px;
+    height: 58%;
+    margin-left: 20%;
+    position: absolute;
+    width: 30%;
+    background: var(--bs-gray-800);
+}
+
+.contact__aside a,i,li {
+    text-decoration: none;
+    list-style: none;
+    color: var(--bs-gray-400);
+}
+.contact__aside h2,p {
+    color: var(--bs-gray-500);
+}
+.contact__aside h5 {
+    display: inline;
+}
+.contact__aside li {
+    margin-top: 2rem;
+}
+
+.contact__socials {
+    margin-top: 3rem;
+}
+.contact__socials li {
+    margin-left: 2rem;
+    display: inline;
+}
+.contact__socials li:nth-child(1) {
+    margin-left: 0rem;
+    display: inline;
+}
+
+.contact__socials li:nth-child(2) i:hover {
+    border-color: aqua;
+    color: aqua;
+}
+
+.contact__socials li:nth-child(4) i:hover {
+    border-color: rgb(48, 48, 183);
+    color: rgb(48, 48, 183);
+}
+
+.contact__socials li:nth-child(1) i:hover {
+    border-color: var(--color-red-2);
+    color: #c82828;
+}
+.contact__socials li i:hover {
+    border-radius: 50px;
+    padding: 0.5rem;
+    border: 1px solid var(--bs-gray-500);
+    color: var(--bs-gray-500);
+
+}
+
+form {
+    border-radius: 15px;
+    padding-top: 4%;
+    padding-left: 60%;
+    height: 70%;
+    margin: 3%;
+    background: var(--bs-gray-700);
+}
+
 /* media screen */
 
 @media screen and (max-width:909px) {
@@ -571,11 +683,31 @@ hr {
         text-align: center;
     }
 
+    /* about page */
+    .about {
+        padding: 5% 12%;
+    }
+
+    .container_about {
+        margin-top: 1rem;
+    }
+    .about_one {
+        margin-top: 2rem;
+    }
+
 }
 
 /* media screen */
 
 @media screen and (max-width:600px) {
+
+        /* about page */
+        .about {
+            padding: 5% 12%;
+        }
+        .about_one {
+            margin-top: 3rem;
+        }
 
     /* section */
 
