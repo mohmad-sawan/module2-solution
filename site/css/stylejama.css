@@ -554,7 +554,7 @@ hr {
     list-style: none;
     color: var(--bs-gray-400);
 }
-.contact__aside h2,p {
+.contact__aside h2, .contact__aside p {
     color: var(--bs-gray-500);
 }
 .contact__aside h5 {
