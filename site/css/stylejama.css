@@ -44,6 +44,13 @@
     --transition-900: all 900ms ease;
     --transition-1000: all 1000ms ease;
 }
+html, body {
+    height: 100%;
+  }
+body {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
 
 nav:hover {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
@@ -447,6 +454,7 @@ article p {
 /* footer */
 
 footer {
+    bottom: 0;
     background: var(--bs-gray-800);
     color: var(--bs-gray-400);
     text-align: center;
@@ -526,8 +534,9 @@ hr {
 
 /* about page */
 
+
 .about {
-    height: 27.5rem;
+    height: 100%;
     background: var(--bs-gray-900);
     color: var(--bs-gray-400);
     text-align: center;
@@ -566,7 +575,8 @@ hr {
 .contact__container {
     padding-left: 15%;
     padding-top: 1%;
-    height: 27.5rem;
+    padding-bottom: 4%;
+    height: 100%;
     background: var(--bs-gray-900);
 }
 
@@ -574,7 +584,7 @@ hr {
     padding: 2rem;
     text-align: center;
     border-radius: 15px;
-    height: 58%;
+    height: fit-content;
     margin-left: 10%;
     position: absolute;
     width: 22%;
@@ -660,9 +670,9 @@ form#one {
     width: 70vw;
     border-radius: 15px;
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     padding-left: 50%;
-    height: 70%;
+    height: fit-content;
     margin: 3%;
     background: var(--bs-gray-700);
     gap: 1rem;
@@ -746,7 +756,7 @@ form#one {
 
     /* contact page */
     .contact__container {
-        height: 10%;
+        height: 100%;
         display: grid;
         grid-template-columns: repeat(1.1fr);
     }
@@ -854,6 +864,11 @@ form#one {
     .contaner_right_q {
         margin-top: 1rem;
     }
+
+    .contaner_tl {   
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+   }
 
 
     /* footer  */
@@ -986,7 +1001,8 @@ form#one {
 
     /* team */
 
-    .contaner_tl {
+    .contaner_tl {   
+         padding-bottom: 20%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
