@@ -1,0 +1,14 @@
+.class1 {
+    border: 1px solid coral;
+    border-radius: 5px;
+    width: 100px;
+    height: fit-content;
+    text-align: center;
+    color: brown;
+}
+
+.class1:hover {
+    background-color: coral;
+    border:none;
+    color: aliceblue;
+}
